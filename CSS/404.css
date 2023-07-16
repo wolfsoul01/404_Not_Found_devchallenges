@@ -1,0 +1,89 @@
+* {
+  font-family: Space Mono;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 40px 35px;
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+}
+
+main {
+  display: flex;
+}
+
+.container_img {
+  margin: 25px 35px;
+}
+
+img {
+  width: 100%;
+  max-width: 539px;
+  max-height: 447.43px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin: 0 50px;
+}
+
+h1 {
+  font-family: Space Mono;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: left;
+  width: 70%;
+}
+
+p {
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  max-width: 50%;
+  text-align: left;
+}
+
+button {
+  width: 216px;
+  height: 68px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: larger;
+  box-shadow: 2px 0  4px rgb(0, 0, 0, 0.4);
+}
+
+
+button:hover{
+    background-color: rgb(44, 44, 44, .8);
+    box-shadow: 4px 0  8px rgb(0, 0, 0, 0.4);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-family: Montserrat;
+  
+}
+
+footer p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+}
